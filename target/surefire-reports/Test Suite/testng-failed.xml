@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test 1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="scenarios.MyStore_SignInWithRegisteredUserTest"/>
+    </classes>
+  </test> <!-- Test 1 -->
+  <test name="Test 2">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="scenarios.MyStore_SignInWithUnRegisteredUserTest"/>
+    </classes>
+  </test> <!-- Test 2 -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <test-scenario name="My Store - SignInFunctionality">
+        <summary>
+            <info desc="07/13/2022 03:27 PM" name="Time Started"/>
+            <info desc="07/13/2022 03:28 PM" name="Time Ended"/>
+            <info desc="0.32 mins" name="Time Elapsed"/>
+            <info desc="chrome 103.0.5060.114" name="Browser"/>
+        </summary>
+        <test-case name="Sign In to My Store with Registered user account">
+            <test-step name="Navigate to My Store app">
+                <report desc="Navigate to  http://automationpractice.com" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+            </test-step>
+            <test-step name="Click on SignIn link">
+                <report desc="[Sign in] Wait for element to display (10)" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+                <report desc="[Sign in] Click element" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+            </test-step>
+            <test-step name="Sign in to MyStore Application">
+                <report desc="[Email Address] Wait for element to display (10)" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+                <report desc="[Email Address] Type &quot;test@seleniumbootcamp.com&quot;" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+                <report desc="[Password] Wait for element to display (10)" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+                <report desc="[Password] Type &quot;test@123&quot;" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+                <report desc="[Sign In] Wait for element to display (10)" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+                <report desc="[Sign In] Click element" status="Passed" timestamp="07/13/2022 03:27 PM"/>
+            </test-step>
+            <test-step name="Verify Login user">
+                <report desc="[Contact Us] Verify that text equals Selenium Bootcamp" status="Passed" timestamp="07/13/2022 03:28 PM"/>
+            </test-step>
+        </test-case>
+    </test-scenario>
+</root>
